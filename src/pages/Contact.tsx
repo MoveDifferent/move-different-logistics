@@ -242,8 +242,8 @@ const Contact = () => {
                       </div>
                       <div>
                         <p className="font-medium text-foreground">Phone</p>
-                        <a href="tel:+254700000000" className="text-muted-foreground text-sm hover:text-accent transition-colors">
-                          +254 700 000 000
+                        <a href="tel:+254798852545" className="text-muted-foreground text-sm hover:text-accent transition-colors">
+                          +254 798 852 545
                         </a>
                       </div>
                     </div>
@@ -253,8 +253,8 @@ const Contact = () => {
                       </div>
                       <div>
                         <p className="font-medium text-foreground">Email</p>
-                        <a href="mailto:info@movedifferent.co.ke" className="text-muted-foreground text-sm hover:text-accent transition-colors">
-                          info@movedifferent.co.ke
+                        <a href="mailto:logistics@movedifferent.co.ke" className="text-muted-foreground text-sm hover:text-accent transition-colors">
+                          logistics@movedifferent.co.ke
                         </a>
                       </div>
                     </div>
@@ -281,7 +281,7 @@ const Contact = () => {
                     className="w-full"
                     asChild
                   >
-                    <a href="tel:+254700000000">
+                    <a href="tel:+254798852545">
                       <Phone className="w-4 h-4" />
                       Call Now
                     </a>

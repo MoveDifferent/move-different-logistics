@@ -7,6 +7,7 @@ const navLinks = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
   { name: "Services", href: "/services" },
+  { name: "Partners", href: "/partners" },
   { name: "Buy & Ship", href: "/buy-and-ship" },
   { name: "Contact", href: "/contact" },
 ];
@@ -44,9 +45,9 @@ const Navbar = () => {
 
           {/* CTA */}
           <div className="hidden lg:flex items-center gap-4">
-            <a href="tel:+254700000000" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground">
+            <a href="tel:+254798852545" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground">
               <Phone className="w-4 h-4" />
-              <span>+254 700 000 000</span>
+              <span>+254 798 852 545</span>
             </a>
             <Button variant="accent" asChild>
               <Link to="/contact">Get a Quote</Link>
