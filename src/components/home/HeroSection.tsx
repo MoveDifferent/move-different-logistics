@@ -8,8 +8,10 @@ import hero2 from "@/assets/hero-2.png";
 import hero3 from "@/assets/hero-3.jpg";
 import hero4 from "@/assets/hero-4.jpg";
 import hero5 from "@/assets/hero-5.jpg";
+import hero6 from "@/assets/hero-6.jpg";
+import hero7 from "@/assets/hero-7.jpg";
 
-const images = [hero1, hero2, hero3, hero4, hero5];
+const images = [hero1, hero2, hero3, hero4, hero5, hero6, hero7];
 
 const HeroSection = () => {
   const [current, setCurrent] = useState(0);
