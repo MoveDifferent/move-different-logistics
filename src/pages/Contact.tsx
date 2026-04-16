@@ -39,17 +39,32 @@ const Contact = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
-    setTimeout(() => {
+    const { error } = await supabase.from("quote_requests").insert({
+      name: formData.name,
+      company: formData.company || null,
+      email: formData.email,
+      phone: formData.phone,
+      service: formData.service,
+      origin: formData.origin || null,
+      destination: formData.destination || null,
+      message: formData.message || null,
+    });
+
+    if (error) {
+      toast({
+        title: "Something went wrong",
+        description: "Please try again or contact us directly.",
+        variant: "destructive",
+      });
+    } else {
       toast({
         title: "Quote Request Sent!",
         description: "We'll get back to you within 24 hours.",
       });
-      setIsSubmitting(false);
       setFormData({
         name: "",
         company: "",
@@ -60,7 +75,8 @@ const Contact = () => {
         destination: "",
         message: "",
       });
-    }, 1000);
+    }
+    setIsSubmitting(false);
   };
 
   return (
