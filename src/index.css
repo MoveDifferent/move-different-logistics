@@ -10,9 +10,9 @@
     --primary: 225 100% 48%;
     --primary-foreground: 0 0% 100%;
     
-    /* Lemon Green Accent - Energy & Movement */
-    --accent: 68 100% 49%;
-    --accent-foreground: 225 100% 20%;
+    /* Vibrant Orange Accent - Energy & Movement */
+    --accent: 23 100% 50%;
+    --accent-foreground: 0 0% 100%;
     
     /* Backgrounds */
     --background: 0 0% 100%;
@@ -47,19 +47,19 @@
     /* Custom Design Tokens */
     --navy-dark: 225 80% 8%;
     --navy-light: 225 40% 96%;
-    --orange-glow: 68 100% 49%;
-    --orange-hover: 68 100% 42%;
+    --orange-glow: 23 100% 50%;
+    --orange-hover: 23 100% 42%;
     
     /* Gradients */
     --gradient-hero: linear-gradient(135deg, hsl(225 100% 30%) 0%, hsl(225 100% 48%) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(68 100% 49%) 0%, hsl(75 100% 44%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(23 100% 50%) 0%, hsl(30 100% 45%) 100%);
     --gradient-card: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(225 40% 98%) 100%);
     
     /* Shadows */
     --shadow-sm: 0 2px 8px -2px hsl(225 100% 48% / 0.08);
     --shadow-md: 0 8px 24px -4px hsl(225 100% 48% / 0.12);
     --shadow-lg: 0 16px 48px -8px hsl(225 100% 48% / 0.16);
-    --shadow-accent: 0 8px 24px -4px hsl(68 100% 49% / 0.35);
+    --shadow-accent: 0 8px 24px -4px hsl(23 100% 50% / 0.35);
 
     /* Sidebar */
     --sidebar-background: 0 0% 98%;
@@ -73,8 +73,8 @@
   }
 
   .dark {
-    --primary: 68 100% 49%;
-    --primary-foreground: 225 100% 20%;
+    --primary: 23 100% 50%;
+    --primary-foreground: 0 0% 100%;
     
     --accent: 225 100% 55%;
     --accent-foreground: 0 0% 100%;
@@ -99,7 +99,7 @@
     
     --border: 225 50% 20%;
     --input: 225 50% 20%;
-    --ring: 68 100% 49%;
+    --ring: 23 100% 50%;
 
     --sidebar-background: 225 80% 8%;
     --sidebar-foreground: 225 20% 95%;
