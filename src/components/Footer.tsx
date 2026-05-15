@@ -9,14 +9,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Company Info */}
           <div>
-            <div className="flex items-center gap-3 mb-6">
-              <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center">
-                <span className="text-accent-foreground font-bold text-lg">M</span>
-              </div>
-              <div className="flex flex-col">
-                <span className="font-bold text-lg leading-tight">Move Different</span>
-                <span className="text-xs text-primary-foreground/70">Logistics Ltd</span>
-              </div>
+            <div className="bg-white rounded-lg p-3 inline-block mb-6">
+              <img src={logo} alt="Move Different Logistics" className="h-14 w-auto" />
             </div>
             <p className="text-primary-foreground/80 text-sm leading-relaxed">
               Your trusted logistics partner in Kenya and East Africa. End-to-end freight forwarding, customs clearance, and delivery solutions.
