@@ -19,7 +19,7 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-bold text-lg mb-6">Quick Links</h4>
+            <h3 className="font-bold text-lg mb-6">Quick Links</h3>
             <ul className="space-y-3">
               {["About Us", "Services", "Buy & Ship", "Contact"].map((item) => (
                 <li key={item}>
@@ -36,7 +36,7 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <h4 className="font-bold text-lg mb-6">Our Services</h4>
+            <h3 className="font-bold text-lg mb-6">Our Services</h3>
             <ul className="space-y-3">
               {["Air Freight", "Sea Freight", "Customs Clearance", "Warehousing", "Last-Mile Delivery"].map((item) => (
                 <li key={item}>
@@ -53,7 +53,7 @@ const Footer = () => {
 
           {/* Contact */}
           <div>
-            <h4 className="font-bold text-lg mb-6">Contact Us</h4>
+            <h3 className="font-bold text-lg mb-6">Contact Us</h3>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-accent shrink-0 mt-0.5" />

@@ -78,7 +78,7 @@ const BuyAndShip = () => {
 
               {/* Countries */}
               <div className="bg-primary-foreground/10 rounded-2xl p-8 backdrop-blur-sm">
-                <h3 className="font-bold text-lg mb-6">We Ship From</h3>
+                <h2 className="font-bold text-lg mb-6">We Ship From</h2>
                 <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
                   {countries.map((country) => (
                     <div

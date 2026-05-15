@@ -62,7 +62,10 @@ const HeroSection = () => {
         {images.map((_, i) => (
           <button
             key={i}
+            type="button"
             onClick={() => { setCurrent(i); }}
+            aria-label={`Go to slide ${i + 1}`}
+            aria-current={i === current}
             className={`w-2.5 h-2.5 rounded-full transition-all duration-300 ${
               i === current ? "bg-accent w-8" : "bg-primary-foreground/40 hover:bg-primary-foreground/60"
             }`}
