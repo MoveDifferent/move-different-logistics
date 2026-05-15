@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Target, Eye, CheckCircle, Users, Award, Globe } from "lucide-react";
@@ -30,6 +31,11 @@ const values = [
 const About = () => {
   return (
     <div className="min-h-screen">
+      <SEO
+        title="About Us | Move Different Logistics Kenya"
+        description="Kenya-based freight forwarder with global reach. Asset-light, partner-driven logistics built on flexibility, competitive pricing and reliable service."
+        path="/about"
+      />
       <Navbar />
       
       <main className="pt-20">

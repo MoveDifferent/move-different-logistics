@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { 
@@ -81,9 +82,27 @@ const services = [
   },
 ];
 
+const servicesLd = services.map((s) => ({
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: s.title,
+  description: s.description,
+  provider: {
+    "@type": "LocalBusiness",
+    name: "Move Different Logistics Ltd",
+  },
+  areaServed: "Kenya",
+}));
+
 const Services = () => {
   return (
     <div className="min-h-screen">
+      <SEO
+        title="Logistics Services Kenya | Air, Sea, Customs & Delivery"
+        description="Air freight, sea freight, customs clearance, inland transport, warehousing, last-mile delivery and more — end-to-end logistics across East Africa."
+        path="/services"
+        jsonLd={servicesLd}
+      />
       <Navbar />
       
       <main className="pt-20">
