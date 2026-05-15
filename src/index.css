@@ -6,60 +6,60 @@
 
 @layer base {
   :root {
-    /* Bold Blue - Primary Brand Color */
-    --primary: 225 100% 48%;
+    /* Deep Navy - Primary Brand Color (from logo wordmark) */
+    --primary: 230 75% 25%;
     --primary-foreground: 0 0% 100%;
     
-    /* Vibrant Orange Accent - Energy & Movement */
-    --accent: 23 100% 50%;
+    /* Vibrant Sky Blue Accent (from logo plane/ship) */
+    --accent: 207 90% 54%;
     --accent-foreground: 0 0% 100%;
     
     /* Backgrounds */
     --background: 0 0% 100%;
-    --foreground: 225 80% 10%;
+    --foreground: 230 75% 12%;
     
     /* Cards & Surfaces */
     --card: 0 0% 100%;
-    --card-foreground: 225 80% 10%;
+    --card-foreground: 230 75% 12%;
     
     --popover: 0 0% 100%;
-    --popover-foreground: 225 80% 10%;
+    --popover-foreground: 230 75% 12%;
     
     /* Secondary - Light Blue tint */
-    --secondary: 225 40% 96%;
-    --secondary-foreground: 225 100% 48%;
+    --secondary: 210 50% 96%;
+    --secondary-foreground: 230 75% 25%;
     
     /* Muted - Subtle backgrounds */
-    --muted: 225 20% 96%;
-    --muted-foreground: 225 20% 45%;
+    --muted: 210 30% 96%;
+    --muted-foreground: 225 15% 45%;
     
     /* Destructive */
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
     
     /* Borders & Inputs */
-    --border: 225 20% 90%;
-    --input: 225 20% 90%;
-    --ring: 225 100% 48%;
+    --border: 215 25% 90%;
+    --input: 215 25% 90%;
+    --ring: 207 90% 54%;
     
     --radius: 0.75rem;
     
     /* Custom Design Tokens */
-    --navy-dark: 225 80% 8%;
-    --navy-light: 225 40% 96%;
-    --orange-glow: 23 100% 50%;
-    --orange-hover: 23 100% 42%;
+    --navy-dark: 230 80% 15%;
+    --navy-light: 210 50% 96%;
+    --sky-glow: 207 90% 60%;
+    --sky-hover: 210 90% 46%;
     
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(225 100% 30%) 0%, hsl(225 100% 48%) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(23 100% 50%) 0%, hsl(30 100% 45%) 100%);
-    --gradient-card: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(225 40% 98%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(230 80% 18%) 0%, hsl(230 75% 32%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(207 90% 54%) 0%, hsl(200 95% 64%) 100%);
+    --gradient-card: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(210 50% 98%) 100%);
     
     /* Shadows */
-    --shadow-sm: 0 2px 8px -2px hsl(225 100% 48% / 0.08);
-    --shadow-md: 0 8px 24px -4px hsl(225 100% 48% / 0.12);
-    --shadow-lg: 0 16px 48px -8px hsl(225 100% 48% / 0.16);
-    --shadow-accent: 0 8px 24px -4px hsl(23 100% 50% / 0.35);
+    --shadow-sm: 0 2px 8px -2px hsl(230 75% 25% / 0.08);
+    --shadow-md: 0 8px 24px -4px hsl(230 75% 25% / 0.12);
+    --shadow-lg: 0 16px 48px -8px hsl(230 75% 25% / 0.16);
+    --shadow-accent: 0 8px 24px -4px hsl(207 90% 54% / 0.35);
 
     /* Sidebar */
     --sidebar-background: 0 0% 98%;
