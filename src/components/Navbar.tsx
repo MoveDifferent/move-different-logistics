@@ -22,13 +22,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">M</span>
-            </div>
-            <div className="flex flex-col">
-              <span className="font-bold text-lg text-foreground leading-tight">Move Different</span>
-              <span className="text-xs text-muted-foreground">Logistics Ltd</span>
-            </div>
+            <img src={logo} alt="Move Different Logistics" className="h-12 w-auto" />
           </Link>
 
           {/* Desktop Nav */}
