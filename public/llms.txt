@@ -1,0 +1,18 @@
+# Move Different Logistics Ltd
+
+> Kenya-based asset-light SME logistics company offering freight forwarding, customs clearance, warehousing and last-mile delivery across East Africa.
+
+## Pages
+
+- [Home](/): Overview of services and company.
+- [About](/about): Company background, mission and values.
+- [Services](/services): Air freight, sea freight, customs clearance, inland transport, warehousing, last-mile delivery and more.
+- [Partners](/partners): Network of shipping lines, airlines and local providers.
+- [Buy & Ship](/buy-and-ship): Cargo consolidation and door-to-door delivery from China, USA, UK, UAE and India.
+- [Contact](/contact): Get a quote or speak with the logistics team.
+
+## Contact
+
+- Phone: +254 798 852 545
+- Email: logistics@movedifferent.co.ke
+- Location: Nairobi, Kenya

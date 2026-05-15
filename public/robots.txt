@@ -12,3 +12,5 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+Sitemap: https://move-different-logistics.lovable.app/sitemap.xml
