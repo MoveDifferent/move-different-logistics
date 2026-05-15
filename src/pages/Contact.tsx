@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import SEO from "@/components/SEO";
 import { supabase } from "@/integrations/supabase/client";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -81,6 +82,11 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen">
+      <SEO
+        title="Contact Us | Move Different Logistics Kenya"
+        description="Request a freight quote or speak with our Kenya logistics team. We respond within 24 hours. Call +254 798 852 545."
+        path="/contact"
+      />
       <Navbar />
       
       <main className="pt-20">
@@ -114,10 +120,11 @@ const Contact = () => {
                   <form onSubmit={handleSubmit} className="space-y-6">
                     <div className="grid md:grid-cols-2 gap-6">
                       <div>
-                        <label className="block text-sm font-medium text-foreground mb-2">
+                        <label htmlFor="contact-name" className="block text-sm font-medium text-foreground mb-2">
                           Full Name *
                         </label>
                         <Input
+                          id="contact-name"
                           name="name"
                           value={formData.name}
                           onChange={handleChange}
@@ -126,10 +133,11 @@ const Contact = () => {
                         />
                       </div>
                       <div>
-                        <label className="block text-sm font-medium text-foreground mb-2">
+                        <label htmlFor="contact-company" className="block text-sm font-medium text-foreground mb-2">
                           Company (Optional)
                         </label>
                         <Input
+                          id="contact-company"
                           name="company"
                           value={formData.company}
                           onChange={handleChange}
@@ -140,10 +148,11 @@ const Contact = () => {
 
                     <div className="grid md:grid-cols-2 gap-6">
                       <div>
-                        <label className="block text-sm font-medium text-foreground mb-2">
+                        <label htmlFor="contact-email" className="block text-sm font-medium text-foreground mb-2">
                           Email Address *
                         </label>
                         <Input
+                          id="contact-email"
                           type="email"
                           name="email"
                           value={formData.email}
@@ -153,10 +162,11 @@ const Contact = () => {
                         />
                       </div>
                       <div>
-                        <label className="block text-sm font-medium text-foreground mb-2">
+                        <label htmlFor="contact-phone" className="block text-sm font-medium text-foreground mb-2">
                           Phone Number *
                         </label>
                         <Input
+                          id="contact-phone"
                           type="tel"
                           name="phone"
                           value={formData.phone}
@@ -168,10 +178,11 @@ const Contact = () => {
                     </div>
 
                     <div>
-                      <label className="block text-sm font-medium text-foreground mb-2">
+                      <label htmlFor="contact-service" className="block text-sm font-medium text-foreground mb-2">
                         Service Type *
                       </label>
                       <select
+                        id="contact-service"
                         name="service"
                         value={formData.service}
                         onChange={handleChange}
@@ -189,10 +200,11 @@ const Contact = () => {
 
                     <div className="grid md:grid-cols-2 gap-6">
                       <div>
-                        <label className="block text-sm font-medium text-foreground mb-2">
+                        <label htmlFor="contact-origin" className="block text-sm font-medium text-foreground mb-2">
                           Origin / Country
                         </label>
                         <Input
+                          id="contact-origin"
                           name="origin"
                           value={formData.origin}
                           onChange={handleChange}
@@ -200,10 +212,11 @@ const Contact = () => {
                         />
                       </div>
                       <div>
-                        <label className="block text-sm font-medium text-foreground mb-2">
+                        <label htmlFor="contact-destination" className="block text-sm font-medium text-foreground mb-2">
                           Destination
                         </label>
                         <Input
+                          id="contact-destination"
                           name="destination"
                           value={formData.destination}
                           onChange={handleChange}
@@ -213,10 +226,11 @@ const Contact = () => {
                     </div>
 
                     <div>
-                      <label className="block text-sm font-medium text-foreground mb-2">
+                      <label htmlFor="contact-message" className="block text-sm font-medium text-foreground mb-2">
                         Message / Cargo Description
                       </label>
                       <Textarea
+                        id="contact-message"
                         name="message"
                         value={formData.message}
                         onChange={handleChange}

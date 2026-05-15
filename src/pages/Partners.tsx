@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import SEO from "@/components/SEO";
 import { Ship, Plane, FileCheck, Truck, Warehouse, Shield, ExternalLink } from "lucide-react";
 
 const partnerCategories = [
@@ -144,6 +145,11 @@ const partnerCategories = [
 const Partners = () => {
   return (
     <div className="min-h-screen">
+      <SEO
+        title="Our Partners | Move Different Logistics Kenya"
+        description="Trusted network of shipping lines, airlines, customs agents, transporters, warehouses and insurers powering our logistics services in Kenya."
+        path="/partners"
+      />
       <Navbar />
       
       <main className="pt-20">

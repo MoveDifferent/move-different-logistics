@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ShoppingBag, Globe, Package, Truck, CheckCircle, ArrowRight } from "lucide-react";
@@ -49,6 +50,11 @@ const benefits = [
 const BuyAndShip = () => {
   return (
     <div className="min-h-screen">
+      <SEO
+        title="Buy & Ship to Kenya | International Shopping Delivery"
+        description="Shop from China, USA, UK, UAE & India. We consolidate, clear customs and deliver to your door in Kenya — save up to 70% on shipping."
+        path="/buy-and-ship"
+      />
       <Navbar />
       
       <main className="pt-20">
@@ -78,7 +84,7 @@ const BuyAndShip = () => {
 
               {/* Countries */}
               <div className="bg-primary-foreground/10 rounded-2xl p-8 backdrop-blur-sm">
-                <h3 className="font-bold text-lg mb-6">We Ship From</h3>
+                <h2 className="font-bold text-lg mb-6">We Ship From</h2>
                 <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
                   {countries.map((country) => (
                     <div
