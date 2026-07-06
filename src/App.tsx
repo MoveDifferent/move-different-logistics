@@ -7,6 +7,7 @@ import { ScrollToTop } from "@/components/ScrollToTop";
 import Index from "./pages/Index";
 import About from "./pages/About";
 import Services from "./pages/Services";
+import ServiceDetail from "./pages/ServiceDetail";
 import Partners from "./pages/Partners";
 import BuyAndShip from "./pages/BuyAndShip";
 import Contact from "./pages/Contact";
