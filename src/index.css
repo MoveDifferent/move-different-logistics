@@ -6,60 +6,64 @@
 
 @layer base {
   :root {
-    /* Deep Navy - Primary Brand Color (from logo wordmark) */
-    --primary: 230 75% 25%;
+    /* Persian Blue - Primary Brand Color (#0038BD) */
+    --primary: 222 100% 37%;
     --primary-foreground: 0 0% 100%;
     
-    /* Vibrant Sky Blue Accent (from logo plane/ship) */
-    --accent: 207 90% 54%;
-    --accent-foreground: 0 0% 100%;
+    /* Carrot Orange Accent (#EFBE01) */
+    --accent: 48 99% 47%;
+    --accent-foreground: 222 100% 15%;
     
     /* Backgrounds */
     --background: 0 0% 100%;
-    --foreground: 230 75% 12%;
+    --foreground: 222 60% 12%;
     
     /* Cards & Surfaces */
     --card: 0 0% 100%;
-    --card-foreground: 230 75% 12%;
+    --card-foreground: 222 60% 12%;
     
     --popover: 0 0% 100%;
-    --popover-foreground: 230 75% 12%;
+    --popover-foreground: 222 60% 12%;
     
-    /* Secondary - Light Blue tint */
-    --secondary: 210 50% 96%;
-    --secondary-foreground: 230 75% 25%;
+    /* Secondary - Platinum (#EEEEEE) */
+    --secondary: 0 0% 93%;
+    --secondary-foreground: 222 100% 25%;
     
-    /* Muted - Subtle backgrounds */
-    --muted: 210 30% 96%;
-    --muted-foreground: 225 15% 45%;
+    /* Muted - Platinum tint */
+    --muted: 0 0% 96%;
+    --muted-foreground: 222 15% 40%;
     
     /* Destructive */
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
     
-    /* Borders & Inputs */
-    --border: 215 25% 90%;
-    --input: 215 25% 90%;
-    --ring: 207 90% 54%;
+    /* Borders & Inputs - Platinum-based */
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 48 99% 47%;
     
     --radius: 0.75rem;
     
     /* Custom Design Tokens */
-    --navy-dark: 230 80% 15%;
-    --navy-light: 210 50% 96%;
-    --sky-glow: 207 90% 60%;
-    --sky-hover: 210 90% 46%;
+    --navy-dark: 222 100% 20%;
+    --navy-light: 0 0% 93%;
+    --sky-glow: 222 100% 45%;
+    --sky-hover: 222 100% 30%;
+    --orange-glow: 48 99% 52%;
+    --orange-hover: 40 100% 45%;
+    --platinum: 0 0% 93%;
     
-    /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(230 80% 18%) 0%, hsl(230 75% 32%) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(207 90% 54%) 0%, hsl(200 95% 64%) 100%);
-    --gradient-card: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(210 50% 98%) 100%);
+    /* Gradients - Persian Blue → Carrot creative blend */
+    --gradient-hero: linear-gradient(135deg, hsl(222 100% 20%) 0%, hsl(222 100% 37%) 60%, hsl(48 99% 47%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(48 99% 47%) 0%, hsl(40 100% 55%) 100%);
+    --gradient-card: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(0 0% 96%) 100%);
     
     /* Shadows */
-    --shadow-sm: 0 2px 8px -2px hsl(230 75% 25% / 0.08);
-    --shadow-md: 0 8px 24px -4px hsl(230 75% 25% / 0.12);
-    --shadow-lg: 0 16px 48px -8px hsl(230 75% 25% / 0.16);
-    --shadow-accent: 0 8px 24px -4px hsl(207 90% 54% / 0.35);
+    --shadow-sm: 0 2px 8px -2px hsl(222 100% 37% / 0.10);
+    --shadow-md: 0 8px 24px -4px hsl(222 100% 37% / 0.15);
+    --shadow-lg: 0 16px 48px -8px hsl(222 100% 37% / 0.20);
+    --shadow-accent: 0 8px 24px -4px hsl(48 99% 47% / 0.40);
+
 
     /* Sidebar */
     --sidebar-background: 0 0% 98%;
