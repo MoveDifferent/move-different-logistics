@@ -79,9 +79,22 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-primary-foreground/20 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-primary-foreground/60 text-sm">
-            © {new Date().getFullYear()} Move Different Logistics Ltd. All rights reserved.
-          </p>
+          <div className="text-center md:text-left">
+            <p className="text-primary-foreground/60 text-sm">
+              © {new Date().getFullYear()} Move Different Logistics Ltd. All rights reserved.
+            </p>
+            <p className="text-primary-foreground/60 text-sm mt-1">
+              Website Design & Digital Marketing by{" "}
+              <a
+                href="https://infinitedigitalnetwork.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-accent transition-colors underline underline-offset-2"
+              >
+                Infinite Digital Network
+              </a>
+            </p>
+          </div>
           <div className="flex gap-6">
             <Link to="/privacy" className="text-primary-foreground/60 hover:text-accent text-sm transition-colors">
               Privacy Policy
