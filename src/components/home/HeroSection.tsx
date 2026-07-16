@@ -54,8 +54,10 @@ const HeroSection = () => {
           />
         </div>
       ))}
-      {/* Subtle bottom gradient for text legibility */}
-      <div className="absolute inset-x-0 bottom-0 top-1/3 z-[1] bg-gradient-to-t from-background/70 via-background/30 to-transparent" />
+      {/* Dark overlay for text legibility */}
+      <div className="absolute inset-0 z-[1] bg-primary/60" />
+      <div className="absolute inset-0 z-[1] bg-gradient-to-t from-background/80 via-background/40 to-background/20" />
+
 
       {/* Slide indicators */}
       <div className="absolute bottom-32 left-1/2 -translate-x-1/2 z-20 flex gap-2">
