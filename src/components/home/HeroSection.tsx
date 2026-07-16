@@ -54,9 +54,8 @@ const HeroSection = () => {
           />
         </div>
       ))}
-      {/* Dark overlay for text legibility */}
-      <div className="absolute inset-0 z-[1] bg-primary/60" />
-      <div className="absolute inset-0 z-[1] bg-gradient-to-t from-background/80 via-background/40 to-background/20" />
+      {/* Gradient overlay for text legibility */}
+      <div className="absolute inset-0 z-[1] bg-gradient-to-r from-background/85 via-background/50 to-transparent" />
 
 
       {/* Slide indicators */}
